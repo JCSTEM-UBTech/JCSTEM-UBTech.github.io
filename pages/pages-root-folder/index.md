@@ -71,6 +71,42 @@ Director: Professor Dong Xu
     <a href="http://ubtrobot.com/"><img src="/images/method/UBTECH.png" width="50%" height="50%"></a>
     
 </div>
+  //盒子用于存放滚动的内容
+  <div id="affiche" align="center">
+    <marquee align="center" behavior="scroll" direction="left" height="300" width="800" hspace="50" vspace="20" loop="10" scrollamount="10" scrolldelay="100" onMouseOut="this.start()" onMouseOver="this.stop()">
+        <img src="/images/method/robot1.png" width="60%" height="60%">
+        <img src="/images/method/robot2.jpg" width="61%" height="61%">
+        <img src="/images/method/robot3.jpg" width="58%" height="58%">
+        <img src="/images/method/robot4.jpg" width="58%" height="58%">
+        <img src="/images/method/robot5.jpg" width="58%" height="58%">
+        <img src="/images/method/robot6.jpg" width="69%" height="69%">
+  　</marquee >
+  </div>
+ //ajax请求在获取数据时再绑定marquee
+ $.ajax({
+        data: {
+            ajaxMethod: 'ajaxGetAffiche',   --ajaxMethod为封装的
+            modemp: JSON.stringify(top.modemp)
+        },
+        type: 'post',
+        dataType: 'json',
+        cache: false,
+        async: true,
+        success: function (data) {
+            var htm = "";
+            //data.JumpData为返回的内容集合
+            if (data.JumpData.length > 0) {
+                htm += '<marquee behavior="scroll" direction="left" style="float:left;height: 26px; width:95%;" hspace="50" vspace="20" loop="-1" scrollamount="6" scrolldelay="100" onmouseout="this.start()" onmouseover="this.stop()">';
+                htm += '<a id="affiche_content" style="width:100%;" onclick="DetailChe()">' + data.JumpData[0].FHSPNAME + "最新公告如下：" + data.JumpData[0].AFFICHECONTENT + '</a>';
+                htm += '</marquee>';
+                $("#affiche").html(htm);
+            }
+            else {
+                $("#affiche").css("display", "none");
+            }
+        }
+    });
+    
 <div align="center">
     <marquee align="center" behavior="scroll" direction="left" height="300" width="800" hspace="50" vspace="20" loop="10" scrollamount="10" scrolldelay="100" onMouseOut="this.start()" onMouseOver="this.stop()">
         <img src="/images/method/robot1.png" width="60%" height="60%">
