@@ -69,7 +69,7 @@ Director: Professor Dong Xu
 
 <div align="center">
 <!--     <a href="http://ubtrobot.com/"><img src="/images/method/UBTECH.png" width="50%" height="50%"></a> -->
-    <a href="http://ubtrobot.com/"><img src="/images/method/logo.jpg" width="90%" height="90%"></a>
+    <a href="http://ubtrobot.com/"><img src="/images/method/logo1.jpg" width="99%" height="99%"></a>
     
 </div>
     
