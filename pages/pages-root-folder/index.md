@@ -73,13 +73,13 @@ Director: Professor Dong Xu
 </div>
     
 <div align="center">
-    <marquee align="center" behavior="scroll" direction="left" height="300" width="800" hspace="50" vspace="20" loop="10" scrollamount="10" scrolldelay="10" onMouseOut="this.start()" onMouseOver="this.stop()">
+    <marquee align="center" behavior="scroll" direction="left" height="300" width="800" hspace="50" vspace="20" loop="-1" scrollamount="10" scrolldelay="10" onMouseOut="this.start()" onMouseOver="this.stop()">
         <img src="/images/method/robot1.png" width="60%" height="60%">
         <img src="/images/method/robot2.jpg" width="61%" height="61%">
-        <img src="/images/method/robot3.jpg" width="58%" height="58%">
-        <img src="/images/method/robot4.jpg" width="58%" height="58%">
-        <img src="/images/method/robot5.jpg" width="58%" height="58%">
-        <img src="/images/method/robot6.jpg" width="69%" height="69%">
+<!--         <img src="/images/method/robot3.jpg" width="58%" height="58%"> -->
+<!--         <img src="/images/method/robot4.jpg" width="58%" height="58%"> -->
+<!--         <img src="/images/method/robot5.jpg" width="58%" height="58%"> -->
+<!--         <img src="/images/method/robot6.jpg" width="69%" height="69%"> -->
   　</marquee>
 </div>
 
