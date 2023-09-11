@@ -73,8 +73,12 @@ Director: Professor Dong Xu
 </div>
 <div align="center">
     <marquee align="center" behavior="scroll" direction="left" height="300" width="800" hspace="50" vspace="20" loop="-1" scrollamount="10" scrolldelay="100" onMouseOut="this.start()" onMouseOver="this.stop()">
-        <img src="/images/method/method1.png">
-        <img src="/images/method/method2.png">
+        <img src="/images/method/robot1.png">
+        <img src="/images/method/robot2.png">
+        <img src="/images/method/robot3.png">
+        <img src="/images/method/robot4.png">
+        <img src="/images/method/robot5.png">
+        <img src="/images/method/robot6.png">
   　</marquee >
 </div>
 
