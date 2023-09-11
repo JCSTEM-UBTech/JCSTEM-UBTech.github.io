@@ -68,7 +68,7 @@ We are proud to collaborate with Ubtech, an established provider of smart servic
 Director: Professor Dong Xu
 
 <div align="center">
-    <a href="http://ubtrobot.com/"><img src="/images/method/UBTECH.png" height="100px"></a>
+    <a href="http://ubtrobot.com/"><img src="/images/method/UBTECH.png" height="10px"></a>
 </div>
 
 ## Our Research
