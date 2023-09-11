@@ -83,114 +83,16 @@ Director: Professor Dong Xu
   　</marquee>
 </div>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>自动轮播图</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            list-style: none;
-        }
-
-        section {
-            position: relative;
-            /* 图片的宽高 */
-            width: 700px;
-            height: 340px;
-            /* background-color: rgb(90, 71, 71); */
-            margin: 50px auto;
-            overflow: hidden;
-        }
-
-        ul {
-            position: absolute;
-            display: flex;
-            /* 动画效果循环轮播10s一次 */
-            animation: move 10s infinite;
-        }
-
-        @keyframes move {
-            0% {
-                left: 0%;
-            }
-
-            15% {
-                left: 0%;
-            }
-
-            20% {
-                left: -100%;
-            }
-
-            35% {
-                left: -100%;
-            }
-
-            40% {
-                left: -200%;
-            }
-
-            55% {
-                left: -200%;
-            }
-
-            60% {
-                left: -300%;
-            }
-
-            75% {
-                left: -300%;
-            }
-
-            80% {
-                left: -400%;
-            }
-
-            100% {
-                left: -400%;
-            }
-        }
-    </style>
-</head>
-
-<body>
-    <section>
-        <!-- 平移轮播 -->
-        <ul>
-            <li>
-                <img src="/images/method/robot1.png">
-            </li>
-
-            <li>
-                <img src="/images/method/robot1.png">
-            </li>
-
-            <li>
-                <img src="/images/method/robot1.png">
-            </li>
-            <li>
-                <img src="/images/method/robot1.png">
-            </li>
-            <li>
-                <img src="/images/method/robot1.png">
-            </li>
-        </ul>
-    </section>
-</body>
-
 
 ## Our Research
 
 Professor Dong Xu’s team at the University of Hong Kong will conduct research in the field of point cloud processing and analysis. Specifically, they will focus on one or more of the following research directions:
-* **Point Cloud Compression**. Eficient and higtr-quality comprestion technicues are develoned for point cloud data. sienificantiy reducing storaze and bandwidth costs. This ncudes Geometry-haseoPoint Cloud Compression (G-PCC and Vide-based Point Cloud Compression (V-PCC),which are specifically designed for compressing point cloud data.
-* **Point Cloud Upsampling**. Generate denser point clouds from sparse point clouds, including static point cloud upsampling and video-based point cloud upsampling.
-* **3D Object Detection**. 3D object detection is the process of detecting and categorizing objects of interest from 3D point cloud data, as well as estimating the position of their 3D bounding boxes.
-* **3D Action Recognition**. 3D action recognition is the process of identifying various human actions from sequences of 3D point cloud data.
-* **Model Compression**. Model compression refers to the process of reducing the size and complexity of a pre-trained deep learning model to obtain a lightweight network with comparable accuracy. The compressed network has a smaller structure and fewer parameters, which effectively reduces computational and storage costs. This makes it easier to deploy the network in hardware-constrained environments.
-* **3D Visual Grounding**. The task of 3D visual grounding aims to address the following problem: determining the specific target object, including its category and the location of its 3D bounding box, through explicit and unambiguous language descriptions.
+- **Point Cloud Compression**. Eficient and higtr-quality comprestion technicues are develoned for point cloud data. sienificantiy reducing storaze and bandwidth costs. This ncudes Geometry-haseoPoint Cloud Compression (G-PCC and Vide-based Point Cloud Compression (V-PCC),which are specifically designed for compressing point cloud data.
+- **Point Cloud Upsampling**. Generate denser point clouds from sparse point clouds, including static point cloud upsampling and video-based point cloud upsampling.
+- **3D Object Detection**. 3D object detection is the process of detecting and categorizing objects of interest from 3D point cloud data, as well as estimating the position of their 3D bounding boxes.
+- **3D Action Recognition**. 3D action recognition is the process of identifying various human actions from sequences of 3D point cloud data.
+- **Model Compression**. Model compression refers to the process of reducing the size and complexity of a pre-trained deep learning model to obtain a lightweight network with comparable accuracy. The compressed network has a smaller structure and fewer parameters, which effectively reduces computational and storage costs. This makes it easier to deploy the network in hardware-constrained environments.
+- **3D Visual Grounding**. The task of 3D visual grounding aims to address the following problem: determining the specific target object, including its category and the location of its 3D bounding box, through explicit and unambiguous language descriptions.
 
 ## Publication
 
