@@ -69,7 +69,10 @@ Director: Professor Dong Xu
 
 <div align="center">
     <a href="http://ubtrobot.com/"><img src="/images/method/UBTECH.png" width="50%" height="50%"></a>
-    <marquee align="left" behavior="scroll" bgcolor="#FF0000" direction="up" height="300" width="200" hspace="50" vspace="20" loop="-1" scrollamount="10" scrolldelay="100" onMouseOut="this.start()" onMouseOver="this.stop()">
+    
+</div>
+<div align="center">
+    <marquee align="left" behavior="scroll" bgcolor="#FF0000" direction="left" height="800" width="300" hspace="50" vspace="20" loop="-1" scrollamount="10" scrolldelay="100" onMouseOut="this.start()" onMouseOver="this.stop()">
         <img src="/images/method/method1.png">
         <img src="/images/method/method2.png">
   　</marquee >
