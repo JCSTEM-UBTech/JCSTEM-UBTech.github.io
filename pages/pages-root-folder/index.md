@@ -63,7 +63,7 @@ homepage: true
 ## Introduction
 
 The JC STEM Lab of MediaML @ HKU is at the forefront of this revolution, dedicated to pioneering research and development that enhances the intelligence and functionality of these service robots. Our lab's primary focus revolves around the meticulous investigation of point cloud processing and analysis. This technology plays a pivotal role in helping robots perceive and understand their environment, laying the groundwork for more sophisticated and nuanced responses to external stimuli. By integrating multi-modality perception, we aim to elevate a robot's sensory capabilities, making them more adept at navigating complex environments and scenarios.
-We are proud to collaborate with Ubtech, an established provider of smart service robotic solutions in mainland, as our strategic partner in this endeavor. This partnership not only enriches our research capacity but also fosters an environment of knowledge exchange, setting the stage for breakthrough innovations in the realm of service robotics.
+We are proud to collaborate with UBTECH ROBOTICS CORP LTD, an established provider of smart service robotic solutions in mainland, as our strategic partner in this endeavor. This partnership not only enriches our research capacity but also fosters an environment of knowledge exchange, setting the stage for breakthrough innovations in the realm of service robotics.
 
 Director: Professor Dong Xu
 
