@@ -68,12 +68,6 @@ We are proud to collaborate with <a href="http://ubtrobot.com/">UBTECH ROBOTICS 
 Director: Professor Dong Xu
 
 <div align="center">
-<!--     <a href="http://ubtrobot.com/"><img src="/images/method/UBTECH.png" width="50%" height="50%"></a> -->
-    <a href="http://ubtrobot.com/"><img src="/images/method/logo1.jpg" width="99%" height="99%"></a>
-    
-</div>
-
-<div align="center">
 <!--     <a href="http://ubtrobot.com/"><img src="/images/method/robot.png" width="80%" height="80%"></a> -->
     <a href="http://ubtrobot.com/"><img src="/images/method/robot.png" width="99%" height="99%"></a>
     
