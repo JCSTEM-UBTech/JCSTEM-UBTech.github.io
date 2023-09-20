@@ -75,7 +75,7 @@ Director: Professor Dong Xu
 
 <div align="center">
 <!--     <a href="http://ubtrobot.com/"><img src="/images/method/robot.png" width="80%" height="80%"></a> -->
-    <a href="http://ubtrobot.com/"><img src="/images/method/robot.jpg" width="99%" height="99%"></a>
+    <a href="http://ubtrobot.com/"><img src="/images/method/robot.png" width="99%" height="99%"></a>
     
 </div>
 
